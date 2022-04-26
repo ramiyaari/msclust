@@ -8,7 +8,7 @@ Authors: Rami Yaari, Amit Huppert and Itai Dattner.
 
 - util.R: various utility functions.
 
-- run_sir.R : generates simulated age group incidence data using SIR model .
+- run_sir.R : generates simulated age group incidence data using an SIR model .
 
 - msclust.R: implementation of the msclust algorithm.
 
