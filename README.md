@@ -28,5 +28,5 @@ Authors: Rami Yaari, Amit Huppert and Itai Dattner.
 
 - \*.RDS: saved results of running \'run_alpha_tests.R\' and \'run_power_tests.R\' that are presented in the manuscript tables.
 
-#### Support and Contributions:
+#### Support:
 For support and bug reports send an email to: ramiyaari@gmail.com or open an issue [<a href="https://github.com/ramiyaari/simode/issues">here</a>].
