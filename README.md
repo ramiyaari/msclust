@@ -24,7 +24,7 @@ Authors: Rami Yaari, Amit Huppert and Itai Dattner.
 
 - run_power_tests.R: running tests to assess the power of the various algorithms.
 
-- covid19_age_group_clustering.R: runnning the msclust+ algorithm on real incidence data of Covid-19 from Israel, to obtain age-group clustering per epidemic wave and sector of the population. The data used by this code cannot be made available at the current time for privacy considerations. 
+- covid19_age_group_clustering.R: running the msclust+ algorithm on real incidence data of Covid-19 from Israel, to obtain age-group clustering per epidemic wave and sector of the population. The data used by this code cannot be made available at the current time for privacy considerations. 
 
 - \*.RDS: saved results of running \'run_alpha_tests.R\' and \'run_power_tests.R\' that are presented in the manuscript tables.
 
