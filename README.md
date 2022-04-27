@@ -1,6 +1,6 @@
 # msclust: monotonic statistical clustering
 
-Code to supplement the manuscript entitled "Data-driven clustering of infectious disease incidence into age groups". 
+Code to accompany the manuscript entitled "Data-driven clustering of infectious disease incidence into age groups". 
 
 Authors: Rami Yaari, Amit Huppert and Itai Dattner.
 
