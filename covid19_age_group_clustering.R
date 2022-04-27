@@ -77,18 +77,18 @@ for(sec in 1:length(sectors)) {
 
   sector <- sectors[[sec]]
   if(sector=='all') {
-    cases_per_age0 <- read.csv('detected_cases_upto_020322_all.csv',header=F) 
+    cases_per_age0 <- read.csv('detected_cases_upto_all.csv',header=F) 
     N <- read.csv("Israel population general 2020.csv",header=F)[,1]+
          read.csv("Israel population haredim 2020.csv",header=F)[,1]+
          read.csv("Israel population arabs 2020.csv",header=F)[,1]
   } else if(sector=='general') {
-    cases_per_age0 <- read.csv('detected_cases_upto_020322_general.csv',header=F)
+    cases_per_age0 <- read.csv('detected_cases_upto_general.csv',header=F)
     N <- read.csv("Israel population general 2020.csv",header=F)[,1]
   } else if(sector=='haredim') {
-    cases_per_age0 <- read.csv('detected_cases_upto_020322_haredim.csv',header=F)
+    cases_per_age0 <- read.csv('detected_cases_upto_haredim.csv',header=F)
     N <- read.csv("Israel population haredim 2020.csv",header=F)[,1]
   } else if(sector=='arabs') {
-    cases_per_age0 <- read.csv('detected_cases_upto_020322_arabs.csv',header=F) 
+    cases_per_age0 <- read.csv('detected_cases_upto_arabs.csv',header=F) 
     N <- read.csv("Israel population arabs 2020.csv",header=F)[,1]
   } else {
     stop('unknown sector')
